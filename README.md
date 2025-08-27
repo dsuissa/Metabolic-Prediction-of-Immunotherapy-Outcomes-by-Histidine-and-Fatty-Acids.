@@ -98,4 +98,4 @@ If you use this workflow, please cite:
 
 Devaux M, et al. DynForest: Random forests for dynamic and complex longitudinal data in survival analysis. Stat Methods Med Res. 2023.
 
-Suissa D, et al. (in preparation). Multivariate longitudinal metabolomics predicts clinical outcomes under cancer immunotherapy.
+Suissa D, et al. (in preparation). Metabolic Prediction of Immunotherapy Outcomes by Histidine and Fatty Acids.
