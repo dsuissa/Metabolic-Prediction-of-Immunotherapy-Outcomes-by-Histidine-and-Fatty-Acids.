@@ -6,7 +6,7 @@ The workflow was developed starting from the original DynForest codebase (Devaux
 
 The repository contains three main R scripts:
 
-## File 1 – Main workflow (Fichier1.R)
+## File 1 – Main workflow (run_DynForest_ablation_workflow.R)
 Orchestrates the iterative ablation pipeline, including:
 
 - Running ablation loops across iterations.
@@ -17,7 +17,7 @@ Orchestrates the iterative ablation pipeline, including:
 
 - Generating visualizations (IBS plots, AUC curves, VIMP grids, alluvial plots).
 
-## File 2 – Core functions (Fichier2.R)
+## File 2 – Core functions (main_functions2.R)
 Defines the training and ablation functions:
 
 - train_DynForest_model() → fits a single DynForest model with longitudinal and fixed predictors.
@@ -26,7 +26,7 @@ Defines the training and ablation functions:
 
 - extract_predictors_over_iterations() → tracks predictor sets across iterations.
 
-## File 3 – Evaluation functions (Fichier3.R)
+## File 3 – Evaluation functions (evaluation_performances_functions.R)
 Provides performance assessment utilities:
 
 - get_AUC_model_based_on_pred() → internal AUC with confidence intervals from timeROC.
