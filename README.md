@@ -96,6 +96,6 @@ results <- run_dynforest_ablation_iteration(
 
 If you use this workflow, please cite:
 
-Devaux M, et al. DynForest: Random forests for dynamic and complex longitudinal data in survival analysis. Stat Methods Med Res. 2023.
+Devaux, A., Helmer, C., Genuer, R., & Proust-Lima, C. (2023). Random survival forests with multivariate longitudinal endogenous covariates. Statistical methods in medical research, 32(12), 2331–2346. https://doi.org/10.1177/09622802231206477
 
 Suissa D, et al. (in preparation). Metabolic Prediction of Immunotherapy Outcomes by Histidine and Fatty Acids.
