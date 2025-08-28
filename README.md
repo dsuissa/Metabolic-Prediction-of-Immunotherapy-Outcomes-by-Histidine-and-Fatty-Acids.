@@ -17,7 +17,7 @@ Orchestrates the iterative ablation pipeline, including:
 
 - Generating visualizations (IBS plots, AUC curves, VIMP grids, alluvial plots).
 
-## File 2 – Core functions (main_functions2.R)
+## File 2 – Core functions (main_functions.R)
 Defines the training and ablation functions:
 
 - train_DynForest_model() → fits a single DynForest model with longitudinal and fixed predictors.
