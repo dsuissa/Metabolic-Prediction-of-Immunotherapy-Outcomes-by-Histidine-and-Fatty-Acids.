@@ -22,7 +22,7 @@
 # metabolites and clinical variables in columns. 
 results_ablation_iteration_SABR_IML1 <- run_dynforest_ablation_iteration(data = data_for_ablation_iteration %>% filter(Study %in% c("SABR", "IMMUNOLIFE")), 
                                                                time_chr = "PFS",event_chr = "PD",
-                                                               columns_metabolites_init = final_metabolites_for_models_MB_plasma_cohorts, 
+                                                               columns_metabolites_init = final_metabolites_for_models_MB_plasma_cohorts, # list of chrs with metabolites columns names of data_for_ablation_loop
                                                                fixed_vars_init = c("Treatment_group","Gender", "Age", "BMI", "Tumor", "Stage"), 
                                                                output_folder = "/Users/deborahsuissa/Desktop/result_SABR_IML1_Ablation_DF_1_by_1_metab_iterations")
 results_ablation_iteration_SABR_IML1 <- readRDS("/Users/deborahsuissa/Desktop/result_SABR_IML1/ablation_partial_results.rds")
